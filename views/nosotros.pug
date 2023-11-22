@@ -1,0 +1,30 @@
+extends ./layout/index 
+
+block contenido
+    main.container.mt-5 
+        .row 
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit mollis sollicitudin. Fusce fringilla, nisl et gravida tempor, est risus tempus nulla, vitae dictum dui purus eget odio. In commodo non velit pellentesque vestibulum. Nunc nec arcu eget augue euismod eleifend vitae eu ligula. Phasellus in odio imperdiet, commodo felis quis, sollicitudin dui. Vestibulum sit amet malesuada sem. Vestibulum vel urna sed turpis pretium luctus. Morbi bibendum mi est, ac egestas lorem pharetra at.
+
+                p Maecenas cursus eros ut nunc ultrices, ac mollis sapien scelerisque. In quis volutpat purus. Cras leo odio, accumsan vitae fringilla ultrices, mattis vel odio. In vel finibus purus, vitae feugiat risus. Aliquam et vehicula lacus, pharetra gravida justo. Curabitur nec rhoncus elit. Maecenas luctus, diam et feugiat ullamcorper, diam orci fermentum dui, non vulputate quam metus vitae leo. Mauris tristique efficitur iaculis. Morbi facilisis elit a mi mollis eleifend. Integer facilisis elit massa, nec pellentesque mi gravida nec. Donec aliquam urna lobortis mauris tempor, sed porttitor dolor venenatis.
+
+                p Cras non justo in dui sollicitudin maximus in a ex. Sed rhoncus lectus vel turpis vulputate, vel varius lacus placerat. Pellentesque fringilla sollicitudin libero, commodo facilisis est. Donec nec malesuada ligula, id ultricies arcu. Nulla aliquet fermentum ipsum nec elementum. Etiam sollicitudin erat eget ex sagittis, vitae accumsan nunc eleifend. Donec lectus quam, tincidunt vitae dignissim eget, pharetra nec lacus. Integer tincidunt, tellus eget feugiat iaculis, felis risus consectetur nulla, non convallis lacus dolor in mi. Fusce pharetra tellus ante, quis tincidunt arcu eleifend a.
+    
+    .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class='img-cluid mb-4')
+                    h2.mb-4 Seguridad
+                    p Cras non justo in dui sollicitudin maximus in a ex. Sed rhoncus lectus vel turpis vulputate, vel varius lacus placerat.
+                .col-md-4 
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class='img-cluid mb-4')
+                    h2.mb-4 Mejores Destinos
+                    p Cras non justo in dui sollicitudin maximus in a ex. Sed rhoncus lectus vel turpis vulputate, vel varius lacus placerat.
+                .col-md-4 
+                    img(src="img/icono_precios.svg", alt="icono precios", class='img-cluid mb-4')
+                    h2.mb-4 Los Mejores Precios
+                    p Cras non justo in dui sollicitudin maximus in a ex. Sed rhoncus lectus vel turpis vulputate, vel varius lacus placerat.
